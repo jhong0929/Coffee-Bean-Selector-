@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base '/Coffee-Bean-Selector-/',
+    base: '/Coffee-Bean-Selector-/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
