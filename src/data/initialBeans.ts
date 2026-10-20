@@ -1,0 +1,88 @@
+import { CoffeeBean } from '../types';
+
+/**
+ * 系統初始展示咖啡豆資料
+ * ⚠️ 明確標示為測試展示資料（isDemo: true），非實際連接之真實庫存
+ */
+export const INITIAL_BEANS: CoffeeBean[] = [
+  {
+    id: 'bean-1',
+    name: '耶加雪菲 潔蒂普 G1',
+    origin: '衣索比亞',
+    process: '水洗',
+    roastLevel: '淺焙',
+    flavorNotes: ['檸檬柑橘', '茉莉花香', '伯爵茶韻'],
+    description: '經典水洗耶加雪菲，花果香氣細緻，酸質清透明亮。',
+    isDemo: true,
+  },
+  {
+    id: 'bean-2',
+    name: '西達摩 桃可可 G1',
+    origin: '衣索比亞',
+    process: '日曬',
+    roastLevel: '淺中焙',
+    flavorNotes: ['水蜜桃', '成熟莓果', '熱帶水果酒香'],
+    description: '日曬處理法帶來甜美濃郁的水果熟成香氣與圓潤口感。',
+    isDemo: true,
+  },
+  {
+    id: 'bean-3',
+    name: '考卡 天堂莊園 雙重發酵',
+    origin: '哥倫比亞',
+    process: '水洗',
+    roastLevel: '中焙',
+    flavorNotes: ['焦糖布丁', '烤堅果', '青蘋果酸'],
+    description: '哥倫比亞高海拔水洗豆，甜度紮實，層次平衡溫和。',
+    isDemo: true,
+  },
+  {
+    id: 'bean-4',
+    name: '波奎特 翡翠莊園 綠標',
+    origin: '巴拿馬',
+    process: '蜜處理',
+    roastLevel: '淺焙',
+    flavorNotes: ['野蜂蜜', '白桃果乾', '高山烏龍'],
+    description: '蜜處理保留豐富果糖層，香氣馥郁柔滑，餘韻回甘悠長。',
+    isDemo: true,
+  },
+  {
+    id: 'bean-5',
+    name: '迦佑山脈 皇冠曼特寧',
+    origin: '印尼',
+    process: '濕剝處理',
+    roastLevel: '中深焙',
+    flavorNotes: ['85% 黑巧克力', '雪松木質', '甘草草本'],
+    description: '蘇門答臘傳統濕剝處理，醇厚度極高，低酸度且香氣深沉。',
+    isDemo: true,
+  },
+  {
+    id: 'bean-6',
+    name: '涅里 祈安布 AA',
+    origin: '肯亞',
+    process: '水洗',
+    roastLevel: '淺中焙',
+    flavorNotes: ['黑醋栗', '番茄梅', '烏梅汁甘醇'],
+    description: '典型肯亞水洗酸質，多汁飽滿，尾韻具豐富甘味。',
+    isDemo: true,
+  },
+  {
+    id: 'bean-7',
+    name: '塔拉珠 音樂家 巴哈',
+    origin: '哥斯大黎加',
+    process: '厭氧發酵',
+    roastLevel: '淺中焙',
+    flavorNotes: ['葡萄乾', '蘭姆酒', '黑櫻桃果醬'],
+    description: '密閉厭氧發酵帶來迷人的酒香與濃郁深色水果風味。',
+    isDemo: true,
+  },
+  {
+    id: 'bean-8',
+    name: '喜拉朵 摩吉安娜 紅波旁',
+    origin: '巴西',
+    process: '日曬',
+    roastLevel: '中深焙',
+    flavorNotes: ['烘烤杏仁', '牛奶巧克力', '香草'],
+    description: '平衡順口、酸質極低，非常適合作為義式濃縮或拿鐵基底。',
+    isDemo: true,
+  },
+];
