@@ -1,4 +1,19 @@
-
+Skip to content
+ 
+Search Gists
+Search...
+All gists
+Back to GitHub
+@iampaula26
+iampaula26/deploy.yml
+Created 7 months ago • Report abuse
+Code
+Revisions
+2
+Clone this repository at &lt;script src=&quot;https://gist.github.com/iampaula26/efffc8cd8f9a0153e43ba8d1f62f8239.js&quot;&gt;&lt;/script&gt;
+<script src="https://gist.github.com/iampaula26/efffc8cd8f9a0153e43ba8d1f62f8239.js"></script>
+Ep5 google ai studio
+deploy.yml
 name: Deploy to GitHub Pages
 
 on:
@@ -41,3 +56,23 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+@jhong0929
+Comment
+ 
+
+Leave a comment
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+Sign in to access your highlights
+Login / Signup
